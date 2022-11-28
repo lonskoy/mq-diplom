@@ -236,11 +236,12 @@ body {
 
 .card-body-content {
 	max-width: 370px;
-	margin: 0 0 0 9px;
+	margin: 0 0 0 30px;
 }
 
 .card-body-tags {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .card-body-item {
@@ -608,6 +609,7 @@ body {
 
 .trends-item-tags {
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .trends-tags-list {
